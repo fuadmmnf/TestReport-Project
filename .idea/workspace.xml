@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/jas/test/ArgumentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jas/test/AssetsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jas/test/BinaryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jas/test/FunctionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jas/test/MathContextTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/report/jas/Function.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/report/jas/Function.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/report/jas/core/operations/Binary$Operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/report/jas/core/operations/Binary$Operator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/report/jas/core/operations/Binary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/report/jas/core/operations/Binary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jas/Function.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jas/Function.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jas/core/operations/Binary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jas/core/operations/Binary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jas/test/FractionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jas/test/FractionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jas/test/MathContextTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jas/test/MathContextTest.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,19 +83,47 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jas/MathContext.java">
+        <entry file="file://$PROJECT_DIR$/src/jas/test/ArgumentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="171" column="54" selection-start-line="171" selection-start-column="35" selection-end-line="171" selection-end-column="54" />
+            <state relative-caret-position="476">
+              <caret line="123" column="1" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#674:2688" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jas/test/MathContextTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="100" column="37" selection-start-line="100" selection-start-column="37" selection-end-line="100" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jas/test/FunctionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/jas/test/MathContextTest.java">
+        <entry file="file://$PROJECT_DIR$/src/jas/test/FractionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
+            <state relative-caret-position="-1119">
+              <caret line="503" column="38" selection-start-line="503" selection-start-column="38" selection-end-line="503" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,9 +167,12 @@
       <find>simplifyTest</find>
       <find>gcd</find>
       <find>facto</find>
-      <find>@</find>
       <find>factorial</find>
       <find>lcm</find>
+      <find>@Te</find>
+      <find>@</find>
+      <find>@T</find>
+      <find>//calling reduce in constructor</find>
     </findStrings>
     <replaceStrings>
       <replace>public</replace>
@@ -187,7 +209,6 @@
         <option value="$PROJECT_DIR$/src/jas/core/components/Constants.java" />
         <option value="$PROJECT_DIR$/src/jas/test/ConstantsTest.java" />
         <option value="$PROJECT_DIR$/src/jas/core/components/Fraction.java" />
-        <option value="$PROJECT_DIR$/src/jas/test/FractionTest.java" />
         <option value="$PROJECT_DIR$/src/jas/test/AssetsTest.java" />
         <option value="$PROJECT_DIR$/src/jas/core/operations/Argument.java" />
         <option value="$PROJECT_DIR$/src/jas/test/ArgumentTest.java" />
@@ -197,11 +218,12 @@
         <option value="$PROJECT_DIR$/src/jas/test/FunctionTest.java" />
         <option value="$PROJECT_DIR$/src/jas/MathContext.java" />
         <option value="$PROJECT_DIR$/src/jas/test/MathContextTest.java" />
+        <option value="$PROJECT_DIR$/src/jas/test/FractionTest.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1612" />
@@ -242,44 +264,7 @@
               <item name="report" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="jas" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="report" type="b2602c69:ProjectViewProjectNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jas" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="report" type="b2602c69:ProjectViewProjectNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jas" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="operations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="report" type="b2602c69:ProjectViewProjectNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jas" type="462c0819:PsiDirectoryNode" />
-              <item name="extras" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="report" type="b2602c69:ProjectViewProjectNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jas" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="report" type="b2602c69:ProjectViewProjectNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jas" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="report" type="b2602c69:ProjectViewProjectNode" />
@@ -308,7 +293,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567781378885" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567783474458" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -540,7 +525,7 @@
       <option name="presentableId" value="Default" />
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
-      <workItem from="1567691008492" duration="44822000" />
+      <workItem from="1567691008492" duration="46899000" />
     </task>
     <servers />
   </component>
@@ -577,7 +562,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46124000" />
+    <option name="totallyTimeSpent" value="48201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -587,7 +572,7 @@
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.6703755" visible="true" weight="0.16791044" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.6703755" visible="true" weight="0.16791044" />
       <window_info id="Structure" order="5" weight="0.25" />
       <window_info id="Favorites" order="6" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3290461" />
@@ -595,7 +580,7 @@
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.20257235" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.20257235" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -729,26 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jas/test/ConstantsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jas/test/CompilerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="310" lean-forward="true" selection-start-line="310" selection-end-line="310" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/math/BigInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -791,13 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1678">
           <caret line="133" column="21" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jas/test/AssetsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="51" column="55" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -864,53 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="515">
           <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jas/test/ArgumentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="122" column="3" selection-start-line="122" selection-start-column="3" selection-end-line="122" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#675:2689" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1071#1072#0" expanded="true" />
-            <element signature="e#1133#1134#0" expanded="true" />
-            <element signature="e#1176#1177#0" expanded="true" />
-            <element signature="e#1235#1236#0" expanded="true" />
-            <element signature="e#1275#1276#0" expanded="true" />
-            <element signature="e#1332#1333#0" expanded="true" />
-            <element signature="e#1372#1373#0" expanded="true" />
-            <element signature="e#1433#1434#0" expanded="true" />
-            <element signature="e#1473#1474#0" expanded="true" />
-            <element signature="e#1533#1534#0" expanded="true" />
-            <element signature="e#1576#1577#0" expanded="true" />
-            <element signature="e#1636#1637#0" expanded="true" />
-            <element signature="e#1679#1680#0" expanded="true" />
-            <element signature="e#1751#1752#0" expanded="true" />
-            <element signature="e#1794#1795#0" expanded="true" />
-            <element signature="e#1860#1861#0" expanded="true" />
-            <element signature="e#1903#1904#0" expanded="true" />
-            <element signature="e#1972#1973#0" expanded="true" />
-            <element signature="e#2015#2016#0" expanded="true" />
-            <element signature="e#2092#2093#0" expanded="true" />
-            <element signature="e#2135#2136#0" expanded="true" />
-            <element signature="e#2193#2194#0" expanded="true" />
-            <element signature="e#2236#2237#0" expanded="true" />
-            <element signature="e#2303#2304#0" expanded="true" />
-            <element signature="e#2346#2347#0" expanded="true" />
-            <element signature="e#2419#2420#0" expanded="true" />
-            <element signature="e#2462#2463#0" expanded="true" />
-            <element signature="e#2528#2529#0" expanded="true" />
-            <element signature="e#2572#2573#0" expanded="true" />
-            <element signature="e#2638#2639#0" expanded="true" />
-            <element signature="e#2678#2679#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1025,26 +936,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jas/test/FunctionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jas/test/FractionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="46" column="39" lean-forward="true" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/jas/core/components/Fraction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -1056,16 +947,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jas/test/BinaryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="185" selection-start-line="185" selection-end-line="185" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/jas/MathContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -1073,10 +954,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/jas/test/ConstantsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jas/test/CompilerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="310" lean-forward="true" selection-start-line="310" selection-end-line="310" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jas/test/BinaryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="185" selection-start-line="185" selection-end-line="185" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jas/test/AssetsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="51" column="55" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jas/test/ArgumentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="123" column="1" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#674:2688" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/jas/test/MathContextTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
+        <state relative-caret-position="341">
+          <caret line="100" column="37" selection-start-line="100" selection-start-column="37" selection-end-line="100" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jas/test/FunctionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jas/test/FractionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1119">
+          <caret line="503" column="38" selection-start-line="503" selection-start-column="38" selection-end-line="503" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -100,7 +100,7 @@ public class FractionTest {
     @Test
     public void convertToFractionTest1() {
         BigInteger[] expected = {BigInteger.valueOf(21), BigInteger.valueOf(1)};
-        Fraction temp = Fraction.convertToFraction(21.0);//calling reduce in constructor
+        Fraction temp = Fraction.convertToFraction(21.0);
         BigInteger[] actual = {temp.getNumerator(), temp.getDenominator()};
         assertEquals(expected, actual);
     }
@@ -108,7 +108,7 @@ public class FractionTest {
     @Test
     public void convertToFractionTest2() {
         BigInteger[] expected = {BigInteger.valueOf(23), BigInteger.valueOf(100)};
-        Fraction temp = Fraction.convertToFraction(.23);//calling reduce in constructor
+        Fraction temp = Fraction.convertToFraction(.23);
         BigInteger[] actual = {temp.getNumerator(), temp.getDenominator()};
         assertEquals(expected, actual);
     }
@@ -116,7 +116,7 @@ public class FractionTest {
     @Test
     public void convertToFractionTest3() {
         BigInteger[] expected = {BigInteger.valueOf(4412323), BigInteger.valueOf(100000)};
-        Fraction temp = Fraction.convertToFraction(44.12323);//calling reduce in constructor
+        Fraction temp = Fraction.convertToFraction(44.12323);
         BigInteger[] actual = {temp.getNumerator(), temp.getDenominator()};
         assertEquals(expected, actual);
     }
@@ -124,7 +124,7 @@ public class FractionTest {
     @Test
     public void convertToFractionTest4() {
         BigInteger[] expected = {BigInteger.valueOf(-4412323), BigInteger.valueOf(100000)};
-        Fraction temp = Fraction.convertToFraction(-44.12323);//calling reduce in constructor
+        Fraction temp = Fraction.convertToFraction(-44.12323);
         BigInteger[] actual = {temp.getNumerator(), temp.getDenominator()};
         assertEquals(expected, actual);
     }
@@ -132,7 +132,7 @@ public class FractionTest {
     @Test
     public void convertToFractionTest5() {
         BigInteger[] expected = {BigInteger.valueOf(-12323), BigInteger.valueOf(100000)};
-        Fraction temp = Fraction.convertToFraction(-0.12323);//calling reduce in constructor
+        Fraction temp = Fraction.convertToFraction(-0.12323);
         BigInteger[] actual = {temp.getNumerator(), temp.getDenominator()};
         assertEquals(expected, actual);
     }
@@ -140,7 +140,7 @@ public class FractionTest {
     @Test
     public void convertToFractionTest6() {
         BigInteger[] expected = {BigInteger.valueOf(0), BigInteger.valueOf(1)};
-        Fraction temp = Fraction.convertToFraction(0.0);//calling reduce in constructor
+        Fraction temp = Fraction.convertToFraction(0.0);
         BigInteger[] actual = {temp.getNumerator(), temp.getDenominator()};
         assertEquals(expected, actual);
     }
@@ -206,7 +206,7 @@ public class FractionTest {
     @Test
     public void convertToFractionWithToleranceTest1() {
         BigInteger[] expected = {BigInteger.valueOf(21), BigInteger.valueOf(1)};
-        Fraction temp = Fraction.convertToFraction(21.0, 0.001);//calling reduce in constructor
+        Fraction temp = Fraction.convertToFraction(21.0, 0.001);
         BigInteger[] actual = {temp.getNumerator(), temp.getDenominator()};
         assertEquals(expected, actual);
     }
@@ -214,7 +214,7 @@ public class FractionTest {
     @Test
     public void convertToFractionWithToleranceTest2() {
         BigInteger[] expected = {BigInteger.valueOf(1), BigInteger.valueOf(4)};
-        Fraction temp = Fraction.convertToFraction(.23, .10);//calling reduce in constructor
+        Fraction temp = Fraction.convertToFraction(.23, .10);
         BigInteger[] actual = {temp.getNumerator(), temp.getDenominator()};
         assertEquals(expected, actual);
     }
@@ -222,7 +222,7 @@ public class FractionTest {
     @Test
     public void convertToFractionWithToleranceTest3() {
         BigInteger[] expected = {BigInteger.valueOf(44), BigInteger.valueOf(1)};
-        Fraction temp = Fraction.convertToFraction(44.12323, 1000);//calling reduce in constructor
+        Fraction temp = Fraction.convertToFraction(44.12323, 1000);
         BigInteger[] actual = {temp.getNumerator(), temp.getDenominator()};
         assertEquals(expected, actual);
     }
@@ -230,7 +230,7 @@ public class FractionTest {
     @Test
     public void convertToFractionWithToleranceTest4() {
         BigInteger[] expected = {BigInteger.valueOf(-4412323), BigInteger.valueOf(100000)};
-        Fraction temp = Fraction.convertToFraction(-44.12323, .0000000000001);//calling reduce in constructor
+        Fraction temp = Fraction.convertToFraction(-44.12323, .0000000000001);
         BigInteger[] actual = {temp.getNumerator(), temp.getDenominator()};
         assertEquals(expected, actual);
     }
@@ -238,7 +238,7 @@ public class FractionTest {
     @Test
     public void convertToFractionWithToleranceTest5() {
         BigInteger[] expected = {BigInteger.valueOf(-12323), BigInteger.valueOf(100000)};
-        Fraction temp = Fraction.convertToFraction(-0.12323, 0.023000);//calling reduce in constructor
+        Fraction temp = Fraction.convertToFraction(-0.12323, 0.023000);
         BigInteger[] actual = {temp.getNumerator(), temp.getDenominator()};
         assertEquals(expected, actual);
     }
@@ -246,7 +246,7 @@ public class FractionTest {
     @Test
     public void convertToFractionWithToleranceTest6() {
         BigInteger[] expected = {BigInteger.valueOf(0), BigInteger.valueOf(1)};
-        Fraction temp = Fraction.convertToFraction(0.0, 0.0000000);//calling reduce in constructor
+        Fraction temp = Fraction.convertToFraction(0.0, 0.0000000);
         BigInteger[] actual = {temp.getNumerator(), temp.getDenominator()};
         assertEquals(expected, actual);
     }

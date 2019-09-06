@@ -110,7 +110,11 @@ public class MathContextTest {
     public void numOccurrencesTest1(){
 
         int[] expected = {6,1,1};
-        int[] actual = MathContext.numOccurrences(new ArrayList<BigInteger>(Arrays.asList(BigInteger.valueOf(3), BigInteger.valueOf(5), BigInteger.valueOf(7))), new ArrayList<BigInteger>(Arrays.asList(BigInteger.valueOf(4),BigInteger.valueOf(3),BigInteger.valueOf(3),BigInteger.valueOf(7),BigInteger.valueOf(5),BigInteger.valueOf(3),BigInteger.valueOf(3),BigInteger.valueOf(3))));
+        int[] actual = MathContext.numOccurrences(new ArrayList<BigInteger>(Arrays.asList(BigInteger.valueOf(3), BigInteger.valueOf(5),
+                BigInteger.valueOf(7))),
+                new ArrayList<BigInteger>(Arrays.asList(BigInteger.valueOf(4),
+                        BigInteger.valueOf(3),BigInteger.valueOf(3),BigInteger.valueOf(7),
+                        BigInteger.valueOf(5),BigInteger.valueOf(3),BigInteger.valueOf(3),BigInteger.valueOf(3))));
         assertArrayEquals(expected, actual);
     }
     @Test
