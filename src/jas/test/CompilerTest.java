@@ -1,6 +1,8 @@
 package jas.test;
 
 import jas.core.Compiler;
+import jas.core.Node;
+import jas.core.components.Variable;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -274,6 +276,39 @@ public class CompilerTest {
 
         assertEquals(expectedValue, obtainedValue);
     }
+
+
+    @Test
+    public void removeUnnecessaryDecimalTest1() {
+        String expectedValue = "-31";
+        String obtainedValue = Compiler.removeUnnecessaryDecimal("-31.0");
+
+        assertEquals(expectedValue, obtainedValue);
+    }
+
+    @Test
+    public void removeUnnecessaryDecimalTest2() {
+        String expectedValue = "31";
+        String obtainedValue = Compiler.removeUnnecessaryDecimal("31.0000");
+
+        assertEquals(expectedValue, obtainedValue);
+    }
+
+    @Test
+    public void removeUnnecessaryDecimalTest3() {
+        String expectedValue = "0";
+        String obtainedValue = Compiler.removeUnnecessaryDecimal("0.0");
+
+        assertEquals(expectedValue, obtainedValue);
+    }
+
+
+
+
+
+
+
+
 
 
 }

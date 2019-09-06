@@ -23,7 +23,7 @@ public class Fraction extends RawValue {
     public static double TOLERANCE = 5E-7;
     private BigInteger numerator;
     private BigInteger denominator;
-
+    public static Binary root;
 
     Fraction(BigInteger numerator, BigInteger denominator) {
         super(Double.NaN);
@@ -52,11 +52,11 @@ public class Fraction extends RawValue {
         return this;
     }
 
-    private BigInteger gcd() {
+    public BigInteger gcd() {
         return MathContext.gcd(numerator.abs(), denominator.abs());
     }
 
-    public static RawValue convertToFraction(double val) {
+    public static Fraction convertToFraction(double val) {
         String s = String.valueOf(val);
         long digitsDec = s.length() - 1 - s.indexOf('.');
         long denominator = 1;
@@ -67,7 +67,7 @@ public class Fraction extends RawValue {
         }
 
         long numerator = Math.round(val);
-        return new Fraction(numerator, denominator).reduce();
+        return new Fraction(numerator, denominator);
     }
 
     /**
@@ -103,7 +103,8 @@ public class Fraction extends RawValue {
 
         Binary exp = new Binary(new RawValue(1), "/", new RawValue(r.doubleValue()));
         Binary irr = new Binary(new RawValue(n1), "^", exp);
-        return new Binary(new RawValue(ext), "*", irr);
+        root = new Binary(new RawValue(ext), "*", irr);
+        return root;
     }
 
     /**
@@ -113,9 +114,9 @@ public class Fraction extends RawValue {
      * @param tolerance desired difference between fraction and the actual double value
      * @return Fraction derived from the provided double value
      */
-    public static RawValue convertToFraction(double val, double tolerance) {
+    public static Fraction convertToFraction(double val, double tolerance) {
         if (val < 0) {
-            RawValue raw = convertToFraction(-val);
+            Fraction raw = convertToFraction(-val);
             if (raw instanceof Fraction)
                 ((Fraction) raw).mult(ONE.negate());
             return raw;
@@ -134,10 +135,10 @@ public class Fraction extends RawValue {
             b = 1 / (b - a);
         } while (Math.abs(val - numerator / (double) denominator) > val * tolerance);
 
-        return new Fraction(numerator, denominator).reduce();
+        return new Fraction(numerator, denominator);
     }
 
-    public RawValue add(RawValue o) {
+    public Fraction add(RawValue o) {
         if (o.isUndefined() || this.isUndefined()) return UNDEF;
         if (!(o instanceof Fraction)) {
             if (o.isInteger()) o = new Fraction(o.toBigInteger(), BIG_ONE);
@@ -149,7 +150,7 @@ public class Fraction extends RawValue {
         this.simult(lcm.divide(denominator));
         f.simult(lcm.divide(f.denominator));
         setNumerator(this.numerator.add(f.numerator));
-        return this.reduce();
+        return this;
     }
 
     public Node exp(RawValue o) {
@@ -180,17 +181,17 @@ public class Fraction extends RawValue {
         }
     }
 
-    public RawValue exp(int i) {
+    public Fraction exp(int i) {
         if (i < 0) {
             i *= -1;
             this.inverse();
         }
         this.numerator = this.numerator.pow(i);
         this.denominator = this.denominator.pow(i);
-        return this.reduce();
+        return this;
     }
 
-    public RawValue sub(RawValue o) {
+    public Fraction sub(RawValue o) {
         return this.add(o.copy().negate());
     }
 

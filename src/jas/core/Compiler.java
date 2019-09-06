@@ -130,7 +130,7 @@ public class Compiler {
         return colored;
     }
 
-    private static String removeUnnecessaryDecimal(String exp) {
+    public static String removeUnnecessaryDecimal(String exp) {
         for (int i = 0; i < exp.length() - 1; i++) {
             String content = exp.substring(i, i + 2);
             if (content.equals(".0")) {
@@ -173,7 +173,7 @@ public class Compiler {
         int nodeHashId = 0;
         ArrayList<Node> pending = new ArrayList<>(); // Pending operations
         while (segment.indexOf('<') != -1) {
-            int indices[] = innermostIndices(segment, '<', '>');
+            int[]  indices = innermostIndices(segment, '<', '>');
             String extracted = segment.substring(indices[0] + 1, indices[1]);
             Node operand = generateOperations(extracted, nodes);
             String operationName = segment.substring(0, indices[0]);
