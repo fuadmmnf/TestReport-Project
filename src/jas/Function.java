@@ -2,6 +2,7 @@ package jas;
 
 import jas.core.Evaluable;
 import jas.core.Nameable;
+import jas.core.components.Literal;
 
 import java.util.ArrayList;
 

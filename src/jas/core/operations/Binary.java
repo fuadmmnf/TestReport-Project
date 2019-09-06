@@ -23,8 +23,8 @@ import static jas.utils.ColorFormatter.color;
  * code refactored May 20th. Added ADT for operations.
  */
 public class Binary extends Operation {
-    private boolean omitParenthesis;
-    private Operator operator;
+    public boolean omitParenthesis;
+    public Operator operator;
 
     public Binary(Node leftHand, String operator, Node rightHand) {
         this(leftHand, Operator.extract(operator), rightHand);
@@ -113,7 +113,7 @@ public class Binary extends Operation {
         return 0;
     }
 
-    private static boolean needsParenthesis(Node o) {
+    public static boolean needsParenthesis(Node o) {
         return o instanceof RawValue && o.val() < 0;
     }
 
@@ -496,7 +496,7 @@ public class Binary extends Operation {
      * @param r2 RawValue #2
      * @return simplified r1 [Operator] r2
      */
-    private Node simplify(RawValue r1, RawValue r2) {
+    public Node simplify(RawValue r1, RawValue r2) {
         if (!FRACTION) return new RawValue(val());
         if (getLeft() instanceof Fraction && isCommutative()) {
             Fraction f = (Fraction) getLeft().copy();
@@ -661,7 +661,7 @@ public class Binary extends Operation {
      * @param o right hand operand of the binary operation
      * @return simplified self of type Node
      */
-    private Node simplifyRightHand(Node o) {
+    public Node simplifyRightHand(Node o) {
         if (o instanceof RawValue && ((RawValue) o).isInteger()) {
             RawValue r = (RawValue) o;
             Node simplified = simplifyRightHand(r.longValue());
@@ -719,7 +719,7 @@ public class Binary extends Operation {
      *
      * @return simplified self
      */
-    private Node simplifyZeroOne() {
+    public Node simplifyZeroOne() {
         for (int i = 1; i <= 2; i++) {
             if (get(i).val() == 0) {
                 switch (operator.name) {
@@ -1172,7 +1172,7 @@ public class Binary extends Operation {
         private int priority; //1 is the most prioritized
         private String standardOperations = "+-*/^";
 
-        private Operator(String name, int priority, BinEvaluable evaluable) {
+        public Operator(String name, int priority, BinEvaluable evaluable) {
             this.name = name;
             this.binEvaluable = evaluable;
             this.priority = priority;
@@ -1192,7 +1192,7 @@ public class Binary extends Operation {
             return incrementer.toString();
         }
 
-        private static Operator extract(String name) {
+        public  static Operator extract(String name) {
             Operator bin = registeredBinOps.get(name);
             if (bin == null) throw new RuntimeException("undefined binary operator \"" + name + "\"");
             return bin;
