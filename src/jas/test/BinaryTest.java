@@ -113,7 +113,7 @@ public class BinaryTest {
 
     @Test
     public void evalTest4() {
-        double expected = Double.NEGATIVE_INFINITY;
+        double expected =5.916079783099616;
         Binary binary = new Binary(new RawValue(35), "^", new RawValue(0.5));
         double actual = binary.eval(123.0);
         assertEquals(expected, actual, 0);

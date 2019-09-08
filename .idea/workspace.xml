@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jas/test/BinaryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jas/test/BinaryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jas/test/CompilerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jas/test/CompilerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jas/test/FractionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jas/test/FractionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jas/test/MathContextTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jas/test/MathContextTest.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,48 +84,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jas/test/ArgumentTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="123" column="1" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="class#674:2688" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jas/test/MathContextTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="100" column="37" selection-start-line="100" selection-start-column="37" selection-end-line="100" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jas/test/FunctionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/jas/test/FractionTest.java">
+        <entry file="file://$PROJECT_DIR$/src/jas/test/CompilerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1119">
-              <caret line="503" column="38" selection-start-line="503" selection-start-column="38" selection-end-line="503" selection-end-column="38" />
+            <state relative-caret-position="323">
+              <caret line="106" column="70" selection-start-line="105" selection-start-column="57" selection-end-line="106" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,8 +108,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Assets</find>
-      <find>replace</find>
       <find>private</find>
       <find>Test</find>
       <find>toString</find>
@@ -173,6 +136,8 @@
       <find>@</find>
       <find>@T</find>
       <find>//calling reduce in constructor</find>
+      <find>evalTest4</find>
+      <find>negateTest6</find>
     </findStrings>
     <replaceStrings>
       <replace>public</replace>
@@ -205,7 +170,6 @@
         <option value="$PROJECT_DIR$/src/jas/core/Node.java" />
         <option value="$PROJECT_DIR$/src/jas/core/CompilerTest.java" />
         <option value="$PROJECT_DIR$/src/jas/core/Compiler.java" />
-        <option value="$PROJECT_DIR$/src/jas/test/CompilerTest.java" />
         <option value="$PROJECT_DIR$/src/jas/core/components/Constants.java" />
         <option value="$PROJECT_DIR$/src/jas/test/ConstantsTest.java" />
         <option value="$PROJECT_DIR$/src/jas/core/components/Fraction.java" />
@@ -214,18 +178,19 @@
         <option value="$PROJECT_DIR$/src/jas/test/ArgumentTest.java" />
         <option value="$PROJECT_DIR$/src/jas/core/operations/Binary.java" />
         <option value="$PROJECT_DIR$/src/jas/Function.java" />
-        <option value="$PROJECT_DIR$/src/jas/test/BinaryTest.java" />
         <option value="$PROJECT_DIR$/src/jas/test/FunctionTest.java" />
         <option value="$PROJECT_DIR$/src/jas/MathContext.java" />
         <option value="$PROJECT_DIR$/src/jas/test/MathContextTest.java" />
         <option value="$PROJECT_DIR$/src/jas/test/FractionTest.java" />
+        <option value="$PROJECT_DIR$/src/jas/test/BinaryTest.java" />
+        <option value="$PROJECT_DIR$/src/jas/test/CompilerTest.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="105" />
+    <option name="y" value="136" />
     <option name="width" value="1612" />
     <option name="height" value="876" />
   </component>
@@ -240,6 +205,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -266,17 +232,10 @@
               <item name="jas" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="report" type="b2602c69:ProjectViewProjectNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,7 +252,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567783474458" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567927628213" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -326,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MathContextTest.baseExponentPairsTest1">
+  <component name="RunManager" selected="JUnit.CompilerTest.innermostIndicesTest2">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -365,7 +324,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathContextTest.baseExponentPairsTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinaryTest.evalTest4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="report" />
       <extension name="coverage">
         <pattern>
@@ -374,8 +333,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="jas.test" />
-      <option name="MAIN_CLASS_NAME" value="jas.test.MathContextTest" />
-      <option name="METHOD_NAME" value="baseExponentPairsTest1" />
+      <option name="MAIN_CLASS_NAME" value="jas.test.BinaryTest" />
+      <option name="METHOD_NAME" value="evalTest4" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -385,7 +344,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathContextTest.factorTest5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinaryTest.getPriorityTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="report" />
       <extension name="coverage">
         <pattern>
@@ -394,8 +353,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="jas.test" />
-      <option name="MAIN_CLASS_NAME" value="jas.test.MathContextTest" />
-      <option name="METHOD_NAME" value="factorTest5" />
+      <option name="MAIN_CLASS_NAME" value="jas.test.BinaryTest" />
+      <option name="METHOD_NAME" value="getPriorityTest2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -405,7 +364,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathContextTest.factorTest6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinaryTest.getPriorityTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="report" />
       <extension name="coverage">
         <pattern>
@@ -414,8 +373,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="jas.test" />
-      <option name="MAIN_CLASS_NAME" value="jas.test.MathContextTest" />
-      <option name="METHOD_NAME" value="factorTest6" />
+      <option name="MAIN_CLASS_NAME" value="jas.test.BinaryTest" />
+      <option name="METHOD_NAME" value="getPriorityTest3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -425,7 +384,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathContextTest.numOccurrencesTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompilerTest.innermostIndicesTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="report" />
       <extension name="coverage">
         <pattern>
@@ -434,8 +393,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="jas.test" />
-      <option name="MAIN_CLASS_NAME" value="jas.test.MathContextTest" />
-      <option name="METHOD_NAME" value="numOccurrencesTest1" />
+      <option name="MAIN_CLASS_NAME" value="jas.test.CompilerTest" />
+      <option name="METHOD_NAME" value="innermostIndicesTest2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -445,7 +404,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathContextTest.numOccurrencesTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FractionTest.negateTest6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="report" />
       <extension name="coverage">
         <pattern>
@@ -454,8 +413,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="jas.test" />
-      <option name="MAIN_CLASS_NAME" value="jas.test.MathContextTest" />
-      <option name="METHOD_NAME" value="numOccurrencesTest2" />
+      <option name="MAIN_CLASS_NAME" value="jas.test.FractionTest" />
+      <option name="METHOD_NAME" value="negateTest6" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -498,19 +457,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.MathContextTest.factorTest5" />
-      <item itemvalue="JUnit.MathContextTest.factorTest6" />
-      <item itemvalue="JUnit.MathContextTest.numOccurrencesTest1" />
-      <item itemvalue="JUnit.MathContextTest.numOccurrencesTest2" />
-      <item itemvalue="JUnit.MathContextTest.baseExponentPairsTest1" />
+      <item itemvalue="JUnit.FractionTest.negateTest6" />
+      <item itemvalue="JUnit.BinaryTest.getPriorityTest2" />
+      <item itemvalue="JUnit.BinaryTest.getPriorityTest3" />
+      <item itemvalue="JUnit.BinaryTest.evalTest4" />
+      <item itemvalue="JUnit.CompilerTest.innermostIndicesTest2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MathContextTest.baseExponentPairsTest1" />
-        <item itemvalue="JUnit.MathContextTest.numOccurrencesTest2" />
-        <item itemvalue="JUnit.MathContextTest.numOccurrencesTest1" />
-        <item itemvalue="JUnit.MathContextTest.factorTest6" />
-        <item itemvalue="JUnit.MathContextTest.factorTest5" />
+        <item itemvalue="JUnit.CompilerTest.innermostIndicesTest2" />
+        <item itemvalue="JUnit.BinaryTest.evalTest4" />
+        <item itemvalue="JUnit.BinaryTest.getPriorityTest3" />
+        <item itemvalue="JUnit.BinaryTest.getPriorityTest2" />
+        <item itemvalue="JUnit.FractionTest.negateTest6" />
       </list>
     </recent_temporary>
   </component>
@@ -525,54 +484,57 @@
       <option name="presentableId" value="Default" />
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
-      <workItem from="1567691008492" duration="46899000" />
+      <workItem from="1567691008492" duration="47573000" />
+      <workItem from="1567819844596" duration="1731000" />
+      <workItem from="1567826277745" duration="444000" />
+      <workItem from="1567921568104" duration="3928000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MathContextTest_numOccurrencesTest1 - 2019.09.06 at 09h 41m 26s.xml">
-      <configuration name="MathContextTest.numOccurrencesTest1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MathContextTest_numOccurrencesTest1 - 2019.09.06 at 09h 41m 42s.xml">
-      <configuration name="MathContextTest.numOccurrencesTest1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MathContextTest_numOccurrencesTest1 - 2019.09.06 at 09h 41m 54s.xml">
-      <configuration name="MathContextTest.numOccurrencesTest1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MathContextTest_numOccurrencesTest1 - 2019.09.06 at 09h 42m 12s.xml">
-      <configuration name="MathContextTest.numOccurrencesTest1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MathContextTest_numOccurrencesTest1 - 2019.09.06 at 09h 42m 32s.xml">
-      <configuration name="MathContextTest.numOccurrencesTest1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MathContextTest_numOccurrencesTest1 - 2019.09.06 at 09h 42m 44s.xml">
-      <configuration name="MathContextTest.numOccurrencesTest1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MathContextTest_numOccurrencesTest1 - 2019.09.06 at 09h 43m 02s.xml">
-      <configuration name="MathContextTest.numOccurrencesTest1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MathContextTest_numOccurrencesTest2 - 2019.09.06 at 09h 43m 31s.xml">
-      <configuration name="MathContextTest.numOccurrencesTest2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MathContextTest_numOccurrencesTest2 - 2019.09.06 at 09h 43m 42s.xml">
       <configuration name="MathContextTest.numOccurrencesTest2" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MathContextTest_baseExponentPairsTest1 - 2019.09.06 at 09h 47m 25s.xml">
       <configuration name="MathContextTest.baseExponentPairsTest1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FractionTest_gcdTest1 - 2019.09.08 at 00h 51m 38s.xml">
+      <configuration name="FractionTest.gcdTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FractionTest_extractRootTest3 - 2019.09.08 at 00h 56m 45s.xml">
+      <configuration name="FractionTest.extractRootTest3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FractionTest_negateTest6 - 2019.09.08 at 01h 36m 36s.xml">
+      <configuration name="FractionTest.negateTest6" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTest_getPriorityTest2 - 2019.09.08 at 01h 51m 35s.xml">
+      <configuration name="BinaryTest.getPriorityTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTest_getPriorityTest3 - 2019.09.08 at 01h 51m 41s.xml">
+      <configuration name="BinaryTest.getPriorityTest3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTest_evalTest4 - 2019.09.08 at 01h 59m 57s.xml">
+      <configuration name="BinaryTest.evalTest4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTest_evalTest4 - 2019.09.08 at 02h 00m 16s.xml">
+      <configuration name="BinaryTest.evalTest4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CompilerTest_innermostIndicesTest2 - 2019.09.08 at 02h 13m 31s.xml">
+      <configuration name="CompilerTest.innermostIndicesTest2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48201000" />
+    <option name="totallyTimeSpent" value="54766000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.6703755" visible="true" weight="0.16791044" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.6703755" visible="true" weight="0.17430703" />
       <window_info id="Structure" order="5" weight="0.25" />
       <window_info id="Favorites" order="6" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3290461" />
@@ -580,7 +542,7 @@
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.20257235" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.20257235" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -592,7 +554,6 @@
       <window_info anchor="bottom" id="Profiler" order="14" />
       <window_info anchor="bottom" id="Event Log" order="15" weight="0.3290461" />
       <window_info anchor="bottom" id="Messages" order="16" weight="0.29796356" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -604,6 +565,7 @@
       <window_info anchor="right" id="Database" order="8" weight="0.32995737" />
       <window_info anchor="right" id="Palette" order="9" />
       <window_info anchor="right" id="Maven Projects" order="10" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -682,13 +644,7 @@
         <state relative-caret-position="-990" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jas/core/CompilerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jas/core/CompilerTest.java" />
     <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -954,50 +910,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jas/test/ConstantsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/jas/test/FunctionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="289">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jas/test/CompilerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="310" lean-forward="true" selection-start-line="310" selection-end-line="310" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jas/test/BinaryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="185" selection-start-line="185" selection-end-line="185" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jas/test/AssetsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="51" column="55" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jas/test/ArgumentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="123" column="1" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#674:2688" />
           </folding>
         </state>
       </provider>
@@ -1012,10 +930,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jas/test/FunctionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/jas/test/ConstantsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="60">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jas/test/AssetsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jas/test/ArgumentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="class#674:2688" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jas/test/BinaryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="131" column="49" selection-start-line="131" selection-start-column="26" selection-end-line="131" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1024,8 +969,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jas/test/FractionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1119">
-          <caret line="503" column="38" selection-start-line="503" selection-start-column="38" selection-end-line="503" selection-end-column="38" />
+        <state relative-caret-position="464">
+          <caret line="672" column="29" lean-forward="true" selection-start-line="668" selection-start-column="16" selection-end-line="668" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jas/test/CompilerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="106" column="70" selection-start-line="105" selection-start-column="57" selection-end-line="106" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

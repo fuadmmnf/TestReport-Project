@@ -91,16 +91,20 @@ public class CompilerTest {
 
     @Test
     public void formatOperationsTest1() {
-        String expectedValue = "list<(asdasdsad)>asdatan<(sec<(cot<()>)>acot<()>)>asin<(d)>adsin<()>asdacos<(ascos<()>)>tan<()>ln<(factorial<()>e())>";
-        String obtainedValue = Compiler.formatOperations("list(asdasdsad)asdatan(sec(cot())acot())asin(d)adsin()asdacos(ascos())tan()ln(factorial()e())");
+        String expectedValue = "list<(asdasdsad)>asdatan<(sec<(cot<()>)>acot<()>)>asin<(d)>" +
+                "adsin<()>asdacos<(ascos<()>)>tan<()>ln<(factorial<()>e())>";
+        String obtainedValue = Compiler.formatOperations("list(asdasdsad)asdatan(sec(cot())acot())" +
+                "asin(d)adsin()asdacos(ascos())tan()ln(factorial()e())");
 
         assertEquals(expectedValue, obtainedValue);
     }
 
     @Test
     public void formatOperationsTest2() {
-        String expectedValue = "listasdas(dsad)asdata(nse)c(c)ot(a)cotasindadsin<(a)>sdacos<(as)>costan<(l)>n(fa)ctorial(e())";
-        String obtainedValue = Compiler.formatOperations("listasdas(dsad)asdata(nse)c(c)ot(a)cotasindadsin(a)sdacos(as)costan(l)n(fa)ctorial(e())");
+        String expectedValue = "listasdas(dsad)asdata(nse)c(c)ot(a)cotasindadsin<(a)>" +
+                "sdacos<(as)>costan<(l)>n(fa)ctorial(e())";
+        String obtainedValue = Compiler.formatOperations("listasdas(dsad)asdata(nse)c(c)ot(a)" +
+                "cotasindadsin(a)sdacos(as)costan(l)n(fa)ctorial(e())");
 
         assertEquals(expectedValue, obtainedValue);
     }
@@ -108,7 +112,8 @@ public class CompilerTest {
     @Test
     public void formatOperationsTest3() {
         String expectedValue = "listasdas(dsadasdata(nsec(cot(acotasindadsin(asdacos(ascostan(ln(factorial(e(";
-        String obtainedValue = Compiler.formatOperations("listasdas(dsadasdata(nsec(cot(acotasindadsin(asdacos(ascostan(ln(factorial(e(");
+        String obtainedValue = Compiler.formatOperations("listasdas(dsa" +
+                "dasdata(nsec(cot(acotasindadsin(asdacos(ascostan(ln(factorial(e(");
 
         assertEquals(expectedValue, obtainedValue);
     }

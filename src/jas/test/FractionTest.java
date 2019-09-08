@@ -164,7 +164,7 @@ public class FractionTest {
     public void extractRootTest3() {
         double expected = 0.5;
         double actual = Fraction.extractRoot(BigInteger.valueOf(4), BigInteger.valueOf(-2)).val();
-        assertEquals(expected, actual, 10);
+        assertEquals(expected, actual, .00000001);
 
     }
     @Test
